@@ -6,3 +6,5 @@ RUN    delgroup ping \
     && apk --no-cache add docker \
     && adduser -D jenkins \
     && adduser jenkins docker
+
+USER jenkins
